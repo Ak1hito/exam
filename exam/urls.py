@@ -13,3 +13,4 @@ urlpatterns = [
     path("events/<int:pk>/edit/", views.EventUpdateView.as_view(), name="event_update"),
     path("events/<int:pk>/delete/", views.EventDeleteView.as_view(), name="event_delete"),
 ]
+#здесь редакт урл

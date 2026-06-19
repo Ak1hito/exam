@@ -1,7 +1,7 @@
 from django import forms
 from django.db import models
 
-from .models import Event, Product
+from .models import Event, Product #удалить лишнее
 
 
 DATETIME_LOCAL_FORMAT = "%Y-%m-%dT%H:%M"
@@ -29,7 +29,7 @@ def setup_form_fields(form):
         else:
             field.widget.attrs["class"] = "form-control"
 
-
+#удалить лишнее
 class ProductForm(forms.ModelForm):
     class Meta:
         model = Product

@@ -3,10 +3,10 @@ from django.shortcuts import redirect
 from django.urls import reverse_lazy
 from django.views.generic import CreateView, DeleteView, ListView, UpdateView
 
-from .forms import EventForm, ProductForm
-from .models import Event, Product
+from .forms import EventForm, ProductForm #удалить лишнее
+from .models import Event, Product #удалить лишнее
 
-
+#удалить лишние классы
 class FormStatusMixin:
     """Возвращает HTTP 400 при ошибках валидации формы (требование ТЗ)."""
 

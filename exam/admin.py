@@ -1,8 +1,8 @@
 from django.contrib import admin
 
-from .models import Event, Product
+from .models import Event, Product #удалить лишнее
 
-
+#удалить лишнее
 @admin.register(Product)
 class ProductAdmin(admin.ModelAdmin):
     list_display = ("id", "name", "category", "price", "sku", "created_at")
