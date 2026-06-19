@@ -1,0 +1,11 @@
+[project]
+name = "qual-exam"
+version = "0.1.0"
+description = "Django training qualification exam project template"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "django",
+    "python-dotenv",
+    "whitenoise",
+]
